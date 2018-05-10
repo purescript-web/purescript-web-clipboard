@@ -1,0 +1,20 @@
+{
+  "name": "purescript-web-clipboard",
+  "homepage": "https://github.com/purescript-web/purescript-web-clipboard",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purescript-web/purescript-web-clipboard.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-web-html": "#compiler/0.12"
+  }
+}
