@@ -15,6 +15,6 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-web-html": "#compiler/0.12"
+    "purescript-web-html": "^1.0.0"
   }
 }
