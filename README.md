@@ -1,14 +1,15 @@
 # purescript-web-clipboard
 
 [![Latest release](http://img.shields.io/github/release/purescript-web/purescript-web-clipboard.svg)](https://github.com/purescript-web/purescript-web-clipboard/releases)
-[![Build status](https://travis-ci.org/purescript-web/purescript-web-clipboard.svg?branch=master)](https://travis-ci.org/purescript-web/purescript-web-clipboard)
+[![Build status](https://github.com/purescript/purescript-web-clipboard/workflows/CI/badge.svg?branch=master)](https://github.com/purescript/purescript-web-clipboard/actions?query=workflow%3ACI+branch%3Amaster)
+[![Pursuit](https://pursuit.purescript.org/packages/purescript-web-clipboard/badge)](https://pursuit.purescript.org/packages/purescript-web-clipboard)
 
 Type definitions and low level interface implementations for the [W3C clipboard APIs spec](https://www.w3.org/TR/clipboard-apis/).
 
 ## Installation
 
 ```
-bower install purescript-web-clipboard
+spago install web-clipboard
 ```
 
 ## Documentation
