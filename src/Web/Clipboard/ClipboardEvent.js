@@ -1,5 +1,3 @@
-"use strict";
-
-exports._clipboardData = function (e) {
+export function _clipboardData(e) {
   return e.clipboardData;
-};
+}

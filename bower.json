@@ -15,6 +15,6 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-web-html": "^3.0.0"
+    "purescript-web-html": "master"
   }
 }
