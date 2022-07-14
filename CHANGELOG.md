@@ -12,6 +12,17 @@ Bugfixes:
 
 Other improvements:
 
+## [v4.1.0](https://github.com/purescript-web/purescript-web-clipboard/releases/tag/v4.1.0) - 2022-07-14
+
+Breaking changes:
+
+New features:
+- Added partial `Clipboard` interface implementation with `readText` and `writeText` operations (#11 by @garyb)
+
+Bugfixes:
+
+Other improvements:
+
 ## [v4.0.0](https://github.com/purescript-web/purescript-web-clipboard/releases/tag/v4.0.0) - 2022-04-27
 
 Breaking changes:
