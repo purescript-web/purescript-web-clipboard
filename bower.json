@@ -15,7 +15,7 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-web-html": "^4.0.0",
-    "purescript-web-promise": "purescript-web/purescript-web-promise#^3.0.0"
+    "purescript-js-promise": "purescript-contrib/purescript-js-promise#^1.0.0",
+    "purescript-web-html": "^4.1.0"
   }
 }

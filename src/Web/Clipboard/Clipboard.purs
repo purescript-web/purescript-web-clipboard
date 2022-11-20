@@ -4,11 +4,11 @@ import Prelude
 
 import Data.Maybe (Maybe)
 import Effect (Effect)
+import Promise (Promise)
 import Unsafe.Coerce (unsafeCoerce)
 import Web.Event.Internal.Types (EventTarget)
 import Web.HTML (Navigator)
 import Web.Internal.FFI (unsafeReadProtoTagged)
-import Web.Promise (Promise)
 
 foreign import clipboard :: Navigator -> Effect Clipboard
 
