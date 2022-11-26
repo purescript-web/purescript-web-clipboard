@@ -5,13 +5,17 @@ Notable changes to this project are documented in this file. The format is based
 ## [Unreleased]
 
 Breaking changes:
-- Migrated from `web-promise` to `js-promise`
 
 New features:
 
 Bugfixes:
 
 Other improvements:
+
+## [v5.0.0](https://github.com/purescript-web/purescript-web-clipboard/releases/tag/v5.0.0) - 2022-11-26
+
+Breaking changes:
+- Migrated from `web-promise` to `js-promise`
 
 ## [v4.1.0](https://github.com/purescript-web/purescript-web-clipboard/releases/tag/v4.1.0) - 2022-07-14
 
