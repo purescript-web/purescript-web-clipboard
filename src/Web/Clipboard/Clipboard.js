@@ -1,7 +1,7 @@
 export function clipboardWrapper(just, nothing, navigator) {
   return function () {
     var clp = navigator.clipboard;
-    if (typeof clp === 'undefined') {
+    if (typeof clp === "undefined") {
       // This is expected if we don't have a SecureContext (see w3 spec).
       return nothing;
     } else {
