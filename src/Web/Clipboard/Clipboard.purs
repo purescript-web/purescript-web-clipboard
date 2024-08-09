@@ -2,7 +2,8 @@ module Web.Clipboard where
 
 import Prelude
 
-import Data.Maybe (Maybe)
+import Data.Function.Uncurried (Fn3, runFn3)
+import Data.Maybe (Maybe(..))
 import Effect (Effect)
 import Promise (Promise)
 import Unsafe.Coerce (unsafeCoerce)
@@ -10,7 +11,10 @@ import Web.Event.Internal.Types (EventTarget)
 import Web.HTML (Navigator)
 import Web.Internal.FFI (unsafeReadProtoTagged)
 
-foreign import clipboard :: Navigator -> Effect Clipboard
+foreign import clipboardWrapper :: Fn3 (forall a. a -> Maybe a) (forall a. Maybe a) Navigator (Effect (Maybe Clipboard))
+
+clipboard :: Navigator -> Effect (Maybe Clipboard)
+clipboard = runFn3 clipboardWrapper Just Nothing
 
 foreign import data Clipboard :: Type
 
