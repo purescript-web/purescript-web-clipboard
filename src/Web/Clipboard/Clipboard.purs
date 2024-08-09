@@ -1,4 +1,11 @@
-module Web.Clipboard where
+module Web.Clipboard
+  ( clipboard
+  , Clipboard
+  , toEventTarget
+  , fromEventTarget
+  , readText
+  , writeText
+  ) where
 
 import Prelude
 
