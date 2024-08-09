@@ -6,6 +6,10 @@ Notable changes to this project are documented in this file. The format is based
 
 Breaking changes:
 
+- `clipboard` now returns `Effect (Maybe Clipboard)` instead of `Effect Clipboard`.
+  This is because insecure contexts don't have the clipboard available, see
+  [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/clipboard).
+
 New features:
 
 Bugfixes:
