@@ -6,15 +6,19 @@ Notable changes to this project are documented in this file. The format is based
 
 Breaking changes:
 
-- `clipboard` now returns `Effect (Maybe Clipboard)` instead of `Effect Clipboard`.
-  This is because insecure contexts don't have the clipboard available, see
-  [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/clipboard).
-
 New features:
 
 Bugfixes:
 
 Other improvements:
+
+
+## [v6.0.0](https://github.com/purescript-web/purescript-web-clipboard/releases/tag/v6.0.0) - 2024-09-12
+
+Breaking changes:
+- `clipboard` now returns `Effect (Maybe Clipboard)` instead of `Effect Clipboard`.
+  This is because insecure contexts don't have the clipboard available, see
+  [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/clipboard). (#15 by @ysangkok)
 
 ## [v5.0.0](https://github.com/purescript-web/purescript-web-clipboard/releases/tag/v5.0.0) - 2022-11-26
 
