@@ -13,6 +13,11 @@ Bugfixes:
 Other improvements:
 
 
+## [v6.0.1](https://github.com/purescript-web/purescript-web-clipboard/releases/tag/v6.0.1) - 2026-10-10
+
+Other improvements:
+- Migrated from Bower/Pulp to registry-backed Spago and updated PureScript, CI, and development tooling with Oxlint, Oxfmt, and purs-tidy (#16 by @thomashoneyman).
+
 ## [v6.0.0](https://github.com/purescript-web/purescript-web-clipboard/releases/tag/v6.0.0) - 2024-09-12
 
 Breaking changes:
