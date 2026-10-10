@@ -1,14 +1,12 @@
 {
   "private": true,
   "scripts": {
-    "clean": "rimraf output && rimraf .pulp-cache",
-    "build": "eslint src && purs-tidy check --config-require src/**/*.purs && pulp build -- --censor-lib --strict"
+    "build": "eslint src && purs-tidy check --config-require src/**/*.purs && spago build --pedantic-packages --strict"
   },
   "devDependencies": {
     "eslint": "^8.28.0",
-    "pulp": "^16.0.2",
-    "purescript-psa": "^0.8.2",
+    "purescript": "0.15.16",
     "purs-tidy": "^0.9.2",
-    "rimraf": "^3.0.2"
+    "spago": "1.0.4"
   }
 }
