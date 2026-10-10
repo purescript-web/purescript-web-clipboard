@@ -1,0 +1,21 @@
+package:
+  name: web-clipboard
+  dependencies:
+    - effect: ">=4.0.0 <5.0.0"
+    - functions: ">=6.0.0 <7.0.0"
+    - js-promise: ">=1.0.0 <2.0.0"
+    - maybe: ">=6.0.0 <7.0.0"
+    - nullable: ">=6.0.0 <7.0.0"
+    - prelude: ">=6.0.0 <7.0.0"
+    - unsafe-coerce: ">=6.0.0 <7.0.0"
+    - web-events: ">=4.0.0 <5.0.0"
+    - web-html: ">=4.1.0 <5.0.0"
+  publish:
+    version: 6.0.1
+    license: MIT
+    location:
+      githubOwner: purescript-web
+      githubRepo: purescript-web-clipboard
+workspace:
+  packageSet:
+    registry: 81.4.0
